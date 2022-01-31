@@ -67,10 +67,22 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribution',
+        name: 'contributors',
         messgae: 'What guidlines do others need to follow to be bale to contribute?',
         validate: constributionsInput => {
             if (constributionsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'How do you test this project?',
+        validate: testingInput => {
+            if (testingInput) {
                 return true;
             } else {
                 return false;

@@ -48,8 +48,10 @@ function renderLicenseBadge(license) {
   
     return`
     # ${answer.title}
+
     ## ${renderLicenseSection(answer.license)} ${renderLicenseBadge(answer.license)}
     ### ${renderLicenseLink(answer.license)}
+    
     ## Table of Contents:
     ###  * [Installation](#installation)
     ###  * [Usage](#usage)
@@ -57,16 +59,21 @@ function renderLicenseBadge(license) {
     ###  * [Contributors](#contributors)
     ###  * [Tests](#tests)
     ###  * [Questions](#questions)
+   
     ## Installation:
     ### You must install the following for this app to function:
     ### ${answer.installation}
+   
     ## Usage:
     ### ${answer.usage}
+   
     ## Contributors:
     ### ${answer.contributions}
+   
     ## Tests:
     ### Run the following commands in your terminal to test this app:
     ### ${answer.tests}
+   
     ## Questions:
     ### If you have any questions, you may contact me at either
     ### Github: https://github.com/${answer.askMe}

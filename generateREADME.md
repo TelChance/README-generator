@@ -1,7 +1,9 @@
 
-    # README Generator
-    ## License: MIT  ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
-    ### https://choosealicense.com/licenses/mit/
+    # readme generator
+
+    ## License: GPL v3.0  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+    ### https://www.gnu.org/licenses
+    
     ## Table of Contents:
     ###  * [Installation](#installation)
     ###  * [Usage](#usage)
@@ -9,16 +11,21 @@
     ###  * [Contributors](#contributors)
     ###  * [Tests](#tests)
     ###  * [Questions](#questions)
+   
     ## Installation:
     ### You must install the following for this app to function:
-    ### All you have to is clone this code from my repository and you will have it.
+    ### Just go to my github account and clone my repository.
+   
     ## Usage:
-    ### This project is useful because it helps coders save time when creating their code and it can show as an example to new coders.
+    ### The project allows coders to save time and to make the readme look nice and neet.
+   
     ## Contributors:
     ### undefined
+   
     ## Tests:
     ### Run the following commands in your terminal to test this app:
-    ### undefined
+    ### When you have the code opened you need to open your terminal and run node index. It will show if there are any problems with the code.
+   
     ## Questions:
     ### If you have any questions, you may contact me at either
     ### Github: https://github.com/TelChance
